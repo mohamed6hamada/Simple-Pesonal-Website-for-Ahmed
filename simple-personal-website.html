@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدماتي المتميزة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #1e5799, #207cca);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: #1e5799;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .service-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border-right: 4px solid #1e5799;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #1e5799;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #1e5799;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            width: 50px;
+            height: 50px;
+            background-color: #1e5799;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background-color: #207cca;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .services-list {
+                grid-template-columns: 1fr;
+            }
+            
+            header {
+                padding: 30px 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>أحمد محمد سعيد</h1>
+            <div class="tagline">خبير محتوى ومستشار تسويق رقمي</div>
+        </header>
+        
+        <section class="section" id="about">
+            <h2>من أنا</h2>
+            <p>
+                مرحباً! أنا خبير في كتابة المحتوى الإبداعي والتسويق الرقمي مع خبرة أكثر من [X] سنوات في هذا المجال. أساعد العملاء على تحسين تواجدهم الرقمي وجذب المزيد من العملاء من خلال محتوى عالي الجودة واستراتيجيات تسويقية فعالة.
+            </p>
+        </section>
+        
+        <section class="section" id="services">
+            <h2>خدماتي</h2>
+            <div class="services-list">
+                <div class="service-card">
+                    <div class="service-title">كتابة المحتوى</div>
+                    <p>
+                        تقديم محتوى إبداعي وجذاب يناسب جمهورك المستهدف ويحسن ترتيبك في محركات البحث. يشمل ذلك المقالات، المدونات، وصف المنتجات، وصفحات الويب.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-title">إدارة وسائل التواصل الاجتماعي</div>
+                    <p>
+                        إدارة حساباتك على منصات التواصل الاجتماعي المختلفة وتطوير محتوى يزيد من تفاعل الجمهور ويبني علاقات قوية مع عملائك.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-title">تحسين محركات البحث (SEO)</div>
+                    <p>
+                        تحسين موقعك الإلكتروني ليظهر في مراتب متقدمة في نتائج البحث من خلال استراتيجيات SEO فعالة وكلمات مفتاحية مدروسة.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-title">استراتيجيات التسويق الرقمي</div>
+                    <p>
+                        تطوير استراتيجيات تسويقية شاملة تساعدك على الوصول لجمهورك المستهدف وتحقيق أهدافك التجارية بفعالية.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="contact">
+            <h2>تواصل معي</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>رقم الهاتف: <strong>+01227839943</strong></div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>البريد الإلكتروني: <strong>Ahmed3459@gmail.com</strong></div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-link" title="Facebook">f</a>
+                <a href="#" class="social-link" title="Twitter">t</a>
+                <a href="#" class="social-link" title="Instagram">i</a>
+                <a href="#" class="social-link" title="LinkedIn">in</a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        جميع الحقوق محفوظة © <span id="current-year">2025</span>
+    </footer>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
